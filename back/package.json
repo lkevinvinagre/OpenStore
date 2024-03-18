@@ -1,0 +1,25 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx src/main/server.ts",
+    "start:dev": "tsx watch src/main/server.ts",
+    "test": "vitest",
+    "build": "tsup src/main"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "prima": "^0.0.1"
+  },
+  "devDependencies": {
+    "@fastify/cors": "^9.0.1",
+    "@types/node": "^20.11.28",
+    "fastify": "^4.26.2",
+    "tsup": "^8.0.2",
+    "tsx": "^4.7.1",
+    "typescript": "^5.4.2",
+    "vitest": "^1.4.0",
+    "zod": "^3.22.4"
+  }
+}
