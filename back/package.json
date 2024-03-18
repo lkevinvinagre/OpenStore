@@ -9,9 +9,7 @@
     "build": "tsup src/main"
   },
   "license": "MIT",
-  "dependencies": {
-    "prima": "^0.0.1"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@fastify/cors": "^9.0.1",
     "@types/node": "^20.11.28",
